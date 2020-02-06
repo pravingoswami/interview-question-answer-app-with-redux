@@ -7,10 +7,10 @@ import thunk from "redux-thunk"
 
 const configureStore = () => {
     const store = createStore(combineReducers({
-        sections : sectionsReducers,
-        tags : tagsReducers,
+        questions : questionsReducers,
         taggings : taggingsReducers,
-        questions : questionsReducers
+        sections : sectionsReducers,
+        tags : tagsReducers
     }), applyMiddleware(thunk))
 
     return store

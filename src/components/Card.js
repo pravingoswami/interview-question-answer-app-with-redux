@@ -7,13 +7,7 @@ function Cards(props){
         <div>
             <br></br>
           <br></br>
-            {/* {
-                state.sections.map(data => {
-                    return(
-                        <CardDesign key = {data.id} data = {data} />
-                    )
-                })
-            } */}
+        {/* hiii */}
 
             {
                 props.sections.map(sec => <CardDesign key = {sec.id} sec = {sec} />)
