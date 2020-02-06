@@ -19,8 +19,7 @@ function Show(props){
                      <br></br>
                      <br></br>
                  <strong><h4>{props.data.title}</h4></strong>
-                 {/* <pre>{props.data.answer}</pre> */}
-                 {/* {JSON.parse(props.data.answer)} */}
+
  
                {ReactHtmlParser(props.data.answer)}
  
